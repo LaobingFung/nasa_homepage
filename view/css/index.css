@@ -120,4 +120,11 @@ img {
 .footer .logo {
   width: 110px;
   margin: 11px;
+  float: left;
+}
+.footer .statement {
+    position: relative;
+}
+.footer .statement p {
+    color: white;
 }
