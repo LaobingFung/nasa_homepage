@@ -30,19 +30,19 @@ body {
     grid-gap: 5px 10px;
 }
 
-.main .item1_row2_col2 {
-    grid-row: 1/ span 2;
-    grid-column: 1/ span 2;
+.main .row2_col2 {
+    grid-row: span 2;
+    grid-column: span 2;
 }
 
-.main .item4_row1_col2{
-    grid-row: 2/ span 1;
-    grid-column: 3/ span 2;
+.main .row1_col2 {
+    grid-row: span 1;
+    grid-column: span 2;
 }
 
-.main .item6_row1_col2{
-    grid-row: 3/ span 1;
-    grid-column: 2/ span 2;
+.main .row1_col1 {
+    grid-row: span 1;
+    grid-column: span 1;
 }
 
 /*.main .width1 {
