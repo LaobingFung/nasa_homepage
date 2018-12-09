@@ -8,6 +8,7 @@ body {
     background: url('../images/starfield-banner.jpg ');
     position: fixed;
     width: 95%;
+    z-index: 1;
 }
 
 .header .logo-link {
