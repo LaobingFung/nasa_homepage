@@ -112,6 +112,30 @@ img {
 .video {
     width: 100%;
 }
+.nasa_events {
+    color: white;
+    background: blue;
+    position: relative;
+}
+.events_top {
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+}
+.events_bot {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    border-top-color: white;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+.events_bot .left {
+    float: left;
+}
+.events_bot .right {
+    float: right;
+}
 .main div {
   overflow: hidden;
 }
