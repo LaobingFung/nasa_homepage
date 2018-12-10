@@ -66,14 +66,17 @@ body {
 .main .row2_col2 {
   grid-row: span 2;
   grid-column: span 2;
+  position: relative;
 }
 .main .row1_col2 {
   grid-row: span 1;
   grid-column: span 2;
+  position: relative;
 }
 .main .row1_col1 {
   grid-row: span 1;
   grid-column: span 1;
+  position: relative;
 }
 .header .navigator {
   float: right;
@@ -149,6 +152,12 @@ img {
 }
 .main div {
   overflow: hidden;
+}
+.tag {
+background: rgba(93, 127, 185, 0.8);
+position: absolute;
+bottom: 0px;
+color: rgba(255, 255, 255, 1);
 }
 .main .extend_btn {
   grid-column: span 4;
