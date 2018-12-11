@@ -83,10 +83,11 @@ body {
   text-align: right;
 }
 ul {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 .header .navigator .navi_main {
+  margin-top: 20px;
   margin-right: 20px;
   padding: 8px;
 }
@@ -94,10 +95,12 @@ ul {
   color: white;
   display: inline;
   font-size: 20px;
+  padding-left: 7px;
+  padding-right: 5px;
 }
 .header .navigator .navi_main li:not(:first-child) {
   border-left-color: white;
-  border-left-width: 1px;
+  border-left-width: 2px;
   border-left-style: solid;
 }
 /*.header .navigator .navi_main li:not(:first-child):before {
