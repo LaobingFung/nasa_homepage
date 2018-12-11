@@ -156,18 +156,21 @@ img {
 .content_bot {
   position: absolute;
   bottom: 0px;
+  width: 100%;
 }
 .tag {
-  background: rgba(93, 127, 185, 0.8);
-  color: rgba(255, 255, 255, 1);
+  background: #39719e;
+  color: #fff;
+  opacity: 0.8;
   display: inline-grid;
   padding: 8px;
 }
 .abstract {
-  background: rgba(255, 255, 255, 0.8);
-  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  background: #fff;
+  color: #000;
+  opacity: 0.8;
   padding: 8px;
-
 }
 .main .extend_btn {
   grid-column: span 4;
