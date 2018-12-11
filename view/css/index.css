@@ -56,8 +56,6 @@ body {
 .main {
   position: relative;
   top: 134px;
-  /*    display: flex;
-    flex-wrap: wrap;*/
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr) 60px;
@@ -105,14 +103,6 @@ ul {
   border-left-width: 2px;
   border-left-style: solid;
 }
-/*.header .navigator .navi_main li:not(:first-child):before {
-  content: "";
-  background-color: white;
-  float: left;
-  display: inline;
-  width: 2px;
-}*/
-
 .header .navigator .navi_sub {
   margin-right: 5px;
   margin-top: 20px;
@@ -153,8 +143,8 @@ img {
   border-bottom-style: solid;
 }
 .events_content {
-    margin: 5px;
-    font-size: 14px;
+  margin: 5px;
+  font-size: 14px;
 }
 .events_bot {
   position: absolute;
@@ -223,10 +213,6 @@ img {
   position: relative;
   color: #fff;
 }
-/*.footer .statement p {
-  color: white;
-}*/
-
 .footer .links {
   float: right;
   margin-top: 40px;
