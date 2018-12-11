@@ -33,7 +33,7 @@ body {
 .header .search button {
   width: 50px;
   height: 50px;
-  background-color: gray;
+  background-color: #333333;
   border: 0px;
 }
 .header .search .search_btn {
@@ -44,14 +44,14 @@ body {
 .header .search input {
   height: 50px;
   width: 100px;
-  background: gray;
+  background: #333333;
   border: 0px;
   padding-left: 10px;
-  color:
+  color: #fff;
 }
 .header .search input::-webkit-input-placeholder {
   /* WebKit browsers */
-  color: black;
+  color: #999;
 }
 .main {
   position: relative;
