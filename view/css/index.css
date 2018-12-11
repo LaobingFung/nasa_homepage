@@ -154,16 +154,20 @@ img {
   overflow: hidden;
 }
 .content_bot {
-    position: absolute;
-    bottom: 0px;
+  position: absolute;
+  bottom: 0px;
 }
 .tag {
   background: rgba(93, 127, 185, 0.8);
   color: rgba(255, 255, 255, 1);
+  display: inline-grid;
+  padding: 8px;
 }
 .abstract {
-    background: rgba(255, 255, 255, 0.8);
-    color: rgba(0, 0, 0, 1);
+  background: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 1);
+  padding: 8px;
+
 }
 .main .extend_btn {
   grid-column: span 4;
