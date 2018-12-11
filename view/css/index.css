@@ -82,6 +82,10 @@ body {
   float: right;
   text-align: right;
 }
+ul {
+    padding: 0px;
+    margin: 0px;
+}
 .header .navigator .navi_main {
   margin-right: 20px;
   padding: 8px;
@@ -106,13 +110,16 @@ body {
 
 .header .navigator .navi_sub {
   margin-right: 5px;
-  padding: 8px;
-  background: gray;
+  margin-top: 20px;
+  padding: 6px;
+  background: #555;
 }
 .header .navigator .navi_sub li {
   color: white;
   display: inline;
   font-size: 14px;
+  padding-left: 9px;
+  padding-right: 8px;
 }
 .header .navigator .navi_sub li:not(:first-child) {
   border-left-color: white;
