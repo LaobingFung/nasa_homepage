@@ -153,11 +153,17 @@ img {
 .main div {
   overflow: hidden;
 }
+.content_bot {
+    position: absolute;
+    bottom: 0px;
+}
 .tag {
-background: rgba(93, 127, 185, 0.8);
-position: absolute;
-bottom: 0px;
-color: rgba(255, 255, 255, 1);
+  background: rgba(93, 127, 185, 0.8);
+  color: rgba(255, 255, 255, 1);
+}
+.abstract {
+    background: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 1);
 }
 .main .extend_btn {
   grid-column: span 4;
