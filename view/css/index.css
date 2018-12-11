@@ -197,10 +197,11 @@ img {
 }
 .footer .statement {
   position: relative;
+  color: #fff;
 }
-.footer .statement p {
+/*.footer .statement p {
   color: white;
-}
+}*/
 .footer .links {
   float: right;
   margin-top: 40px;
