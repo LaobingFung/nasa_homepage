@@ -12,36 +12,36 @@ body {
 .header .logo-link {
   padding: 10px;
 }
-.header .logo {
+.header_logo {
   float: left;
   width: 110px;
   margin: 11px;
 }
-.header .share {
+.share {
   width: 50px;
   height: 50px;
   float: right;
   margin-right: 20px;
   margin-top: 20px;
 }
-.header .search {
+.search {
   height: 50px;
   float: right;
   background: gray;
   margin-top: 20px;
 }
-.header .search button {
+.search button {
   width: 50px;
   height: 50px;
   background-color: #333333;
   border: 0px;
 }
-.header .search .search_btn {
+.search_btn {
   width: 50px;
   height: 50px;
   float: right;
 }
-.header .search input {
+.search input {
   height: 50px;
   width: 100px;
   background: #333333;
@@ -49,7 +49,7 @@ body {
   padding-left: 10px;
   color: #fff;
 }
-.header .search input::-webkit-input-placeholder {
+.search input::-webkit-input-placeholder {
   /* WebKit browsers */
   color: #999;
 }
@@ -61,22 +61,22 @@ body {
   grid-template-rows: repeat(4, 1fr) 60px;
   grid-gap: 15px 15px;
 }
-.main .row2_col2 {
+.row2_col2 {
   grid-row: span 2;
   grid-column: span 2;
   position: relative;
 }
-.main .row1_col2 {
+.row1_col2 {
   grid-row: span 1;
   grid-column: span 2;
   position: relative;
 }
-.main .row1_col1 {
+.row1_col1 {
   grid-row: span 1;
   grid-column: span 1;
   position: relative;
 }
-.header .navigator {
+.navigator {
   float: right;
   text-align: right;
 }
@@ -84,12 +84,12 @@ ul {
   padding: 0px;
   margin: 0px;
 }
-.header .navigator .navi_main {
+.navi_main {
   margin-top: 20px;
   margin-right: 20px;
   padding: 8px;
 }
-.header .navigator .navi_main li {
+.navi_main li {
   color: white;
   display: inline;
   font-size: 20px;
@@ -98,25 +98,25 @@ ul {
   padding-top: 3px;
   padding-bottom: 3px;
 }
-.header .navigator .navi_main li:not(:first-child) {
+.navi_main li:not(:first-child) {
   border-left-color: #555;
   border-left-width: 2px;
   border-left-style: solid;
 }
-.header .navigator .navi_sub {
+.navi_sub {
   margin-right: 5px;
   margin-top: 20px;
   padding: 6px;
   background: #555;
 }
-.header .navigator .navi_sub li {
+.navi_sub li {
   color: white;
   display: inline;
   font-size: 14px;
   padding-left: 9px;
   padding-right: 8px;
 }
-.header .navigator .navi_sub li:not(:first-child) {
+.navi_sub li:not(:first-child) {
   border-left-color: white;
   border-left-width: 1px;
   border-left-style: solid;
@@ -186,10 +186,10 @@ img {
   opacity: 0.8;
   padding: 8px;
 }
-.main .extend_btn {
+.extend_btn {
   grid-column: span 4;
 }
-.main .extend_btn button {
+.extend_btn button {
   width: 100%;
   height: 40px;
   color: white;
@@ -204,20 +204,20 @@ img {
   position: relative;
   top: 134px;
 }
-.footer .logo {
+.footer_logo {
   width: 110px;
   margin: 11px;
   float: left;
 }
-.footer .statement {
+.footer_statement {
   position: relative;
   color: #fff;
 }
-.footer .links {
+.footer_links {
   float: right;
   margin-top: 40px;
 }
-.footer .links ul li {
+.footer_links ul li {
   display: inline;
   color: #5d7fb9;
   margin-left: 10px;
