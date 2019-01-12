@@ -121,6 +121,10 @@ ul {
   border-left-width: 1px;
   border-left-style: solid;
 }
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
 img {
   width: 100%;
   height: 100%;
