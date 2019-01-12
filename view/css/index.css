@@ -207,6 +207,7 @@ img {
 .footer {
   position: relative;
   top: 134px;
+  height: 200px;
 }
 .footer_logo {
   width: 110px;
